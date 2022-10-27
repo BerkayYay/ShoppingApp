@@ -16,6 +16,10 @@
 		F092B363290A40E5006E462E /* Shopping_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F092B362290A40E5006E462E /* Shopping_AppTests.swift */; };
 		F092B36D290A40E5006E462E /* Shopping_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F092B36C290A40E5006E462E /* Shopping_AppUITests.swift */; };
 		F092B36F290A40E5006E462E /* Shopping_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F092B36E290A40E5006E462E /* Shopping_AppUITestsLaunchTests.swift */; };
+		F092B383290A8F12006E462E /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F092B381290A8F12006E462E /* OnboardingViewController.swift */; };
+		F092B384290A8F12006E462E /* OnboardingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F092B382290A8F12006E462E /* OnboardingViewController.xib */; };
+		F092B387290A93A5006E462E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F092B386290A93A5006E462E /* OnboardingView.swift */; };
+		F092B38D290A9BAF006E462E /* OnboardingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F092B38C290A9BAF006E462E /* OnboardingView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		F092B368290A40E5006E462E /* Shopping AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shopping AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F092B36C290A40E5006E462E /* Shopping_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopping_AppUITests.swift; sourceTree = "<group>"; };
 		F092B36E290A40E5006E462E /* Shopping_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopping_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F092B381290A8F12006E462E /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		F092B382290A8F12006E462E /* OnboardingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingViewController.xib; sourceTree = "<group>"; };
+		F092B386290A93A5006E462E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		F092B38C290A9BAF006E462E /* OnboardingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +145,7 @@
 		F092B37C290A413E006E462E /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				F092B37E290A8EE0006E462E /* Onboarding */,
 				F092B37D290A432B006E462E /* Initial */,
 			);
 			path = Screens;
@@ -149,6 +158,41 @@
 				F092B34F290A40E4006E462E /* ViewController.swift */,
 			);
 			path = Initial;
+			sourceTree = "<group>";
+		};
+		F092B37E290A8EE0006E462E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				F092B380290A8EEF006E462E /* Controller */,
+				F092B37F290A8EEC006E462E /* View */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		F092B37F290A8EEC006E462E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F092B385290A9363006E462E /* OnboardingView */,
+				F092B382290A8F12006E462E /* OnboardingViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F092B380290A8EEF006E462E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F092B381290A8F12006E462E /* OnboardingViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F092B385290A9363006E462E /* OnboardingView */ = {
+			isa = PBXGroup;
+			children = (
+				F092B386290A93A5006E462E /* OnboardingView.swift */,
+				F092B38C290A9BAF006E462E /* OnboardingView.xib */,
+			);
+			path = OnboardingView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +302,8 @@
 				F092B358290A40E5006E462E /* LaunchScreen.storyboard in Resources */,
 				F092B355290A40E5006E462E /* Assets.xcassets in Resources */,
 				F092B353290A40E4006E462E /* Main.storyboard in Resources */,
+				F092B38D290A9BAF006E462E /* OnboardingView.xib in Resources */,
+				F092B384290A8F12006E462E /* OnboardingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +331,8 @@
 				F092B350290A40E4006E462E /* ViewController.swift in Sources */,
 				F092B34C290A40E4006E462E /* AppDelegate.swift in Sources */,
 				F092B34E290A40E4006E462E /* SceneDelegate.swift in Sources */,
+				F092B387290A93A5006E462E /* OnboardingView.swift in Sources */,
+				F092B383290A8F12006E462E /* OnboardingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OnboardingViewController" customModule="Shopping_App" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="gyM-jL-otj" id="I3H-8i-OK7"/>
+                <outlet property="nextButton" destination="TSC-ih-syw" id="3mo-Ls-eol"/>
+                <outlet property="pageControl" destination="r8T-KQ-VWF" id="GHp-aH-tAl"/>
+                <outlet property="prevButton" destination="Wfb-IQ-YCn" id="4ID-pz-egK"/>
+                <outlet property="scrollView" destination="FYc-s3-777" id="WzQ-c3-evw"/>
+                <outlet property="skipButton" destination="14N-Yh-a5a" id="2Hb-BX-Nwb"/>
+                <outlet property="view" destination="aM3-aG-tyz" id="npo-8Q-NK0"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="aM3-aG-tyz">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TSC-ih-syw">
+                    <rect key="frame" x="314" y="775" width="60" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="rEs-6B-A1j"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Next"/>
+                    <connections>
+                        <action selector="didTapNextButton:" destination="-1" eventType="touchUpInside" id="ovs-y6-Kny"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wfb-IQ-YCn">
+                    <rect key="frame" x="16" y="775" width="59" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="fUF-m0-qO0"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Prev"/>
+                    <connections>
+                        <action selector="didTapPrevButton:" destination="-1" eventType="touchUpInside" id="WXg-lb-1eX"/>
+                    </connections>
+                </button>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="r8T-KQ-VWF">
+                    <rect key="frame" x="137" y="778" width="116" height="26"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="26" id="oyj-KM-W3L"/>
+                    </constraints>
+                    <connections>
+                        <action selector="didPageControlValueChanged:" destination="-1" eventType="valueChanged" id="twd-js-m43"/>
+                    </connections>
+                </pageControl>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FYc-s3-777">
+                    <rect key="frame" x="0.0" y="90" width="390" height="677"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gyM-jL-otj">
+                            <rect key="frame" x="0.0" y="0.0" width="390" height="677"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="gyM-jL-otj" firstAttribute="centerX" secondItem="FYc-s3-777" secondAttribute="centerX" priority="250" id="2ec-1c-NMt"/>
+                        <constraint firstAttribute="trailing" secondItem="gyM-jL-otj" secondAttribute="trailing" priority="250" id="9UZ-q7-SVK"/>
+                        <constraint firstItem="gyM-jL-otj" firstAttribute="centerY" secondItem="FYc-s3-777" secondAttribute="centerY" id="Bc2-Fj-bfA"/>
+                        <constraint firstItem="gyM-jL-otj" firstAttribute="top" secondItem="FYc-s3-777" secondAttribute="top" id="cGo-UG-ZkK"/>
+                        <constraint firstItem="gyM-jL-otj" firstAttribute="leading" secondItem="FYc-s3-777" secondAttribute="leading" id="i8o-Fy-YAL"/>
+                        <constraint firstAttribute="bottom" secondItem="gyM-jL-otj" secondAttribute="bottom" id="m2O-J3-VRn"/>
+                    </constraints>
+                </scrollView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="14N-Yh-a5a">
+                    <rect key="frame" x="317" y="47" width="57" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="M7H-uR-OcA"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Skip"/>
+                    <connections>
+                        <action selector="didTapSkipButton:" destination="-1" eventType="touchUpInside" id="r1n-kj-Mit"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="VKu-PW-j9i"/>
+            <color key="backgroundColor" systemColor="systemOrangeColor"/>
+            <constraints>
+                <constraint firstItem="VKu-PW-j9i" firstAttribute="trailing" secondItem="TSC-ih-syw" secondAttribute="trailing" constant="16" id="81d-uY-rJI"/>
+                <constraint firstItem="r8T-KQ-VWF" firstAttribute="centerX" secondItem="aM3-aG-tyz" secondAttribute="centerX" id="9zo-MG-wSf"/>
+                <constraint firstItem="14N-Yh-a5a" firstAttribute="top" secondItem="VKu-PW-j9i" secondAttribute="top" id="GYO-9a-7Oe"/>
+                <constraint firstItem="FYc-s3-777" firstAttribute="leading" secondItem="VKu-PW-j9i" secondAttribute="leading" id="Iqd-Hq-019"/>
+                <constraint firstItem="TSC-ih-syw" firstAttribute="top" secondItem="FYc-s3-777" secondAttribute="bottom" constant="8" symbolic="YES" id="N6S-qB-FAc"/>
+                <constraint firstItem="FYc-s3-777" firstAttribute="top" secondItem="14N-Yh-a5a" secondAttribute="bottom" constant="8" symbolic="YES" id="OhP-EP-kja"/>
+                <constraint firstItem="TSC-ih-syw" firstAttribute="bottom" secondItem="VKu-PW-j9i" secondAttribute="bottom" id="cjP-XV-pAG"/>
+                <constraint firstItem="VKu-PW-j9i" firstAttribute="bottom" secondItem="r8T-KQ-VWF" secondAttribute="bottom" constant="6" id="dCo-do-i2x"/>
+                <constraint firstItem="Wfb-IQ-YCn" firstAttribute="bottom" secondItem="VKu-PW-j9i" secondAttribute="bottom" id="jx2-Qn-PG2"/>
+                <constraint firstItem="FYc-s3-777" firstAttribute="trailing" secondItem="VKu-PW-j9i" secondAttribute="trailing" id="kNa-4s-a4G"/>
+                <constraint firstItem="Wfb-IQ-YCn" firstAttribute="leading" secondItem="VKu-PW-j9i" secondAttribute="leading" constant="16" id="qiZ-dr-usH"/>
+                <constraint firstItem="VKu-PW-j9i" firstAttribute="trailing" secondItem="14N-Yh-a5a" secondAttribute="trailing" constant="16" id="wmG-dT-f5N"/>
+            </constraints>
+            <point key="canvasLocation" x="136.92307692307691" y="20.616113744075829"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
