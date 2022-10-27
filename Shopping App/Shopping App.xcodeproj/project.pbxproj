@@ -137,10 +137,18 @@
 		F092B37C290A413E006E462E /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				F092B37D290A432B006E462E /* Initial */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		F092B37D290A432B006E462E /* Initial */ = {
+			isa = PBXGroup;
+			children = (
 				F092B351290A40E4006E462E /* Main.storyboard */,
 				F092B34F290A40E4006E462E /* ViewController.swift */,
 			);
-			path = Screens;
+			path = Initial;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -455,7 +463,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9733LH72T3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Shopping App/Info.plist";
+				INFOPLIST_FILE = "Shopping App/App/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -488,7 +496,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9733LH72T3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Shopping App/Info.plist";
+				INFOPLIST_FILE = "Shopping App/App/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
