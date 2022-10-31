@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06080CB4C4D3894F29342D6C /* Pods_Shopping_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B671D513CA5734F4CC68B5C9 /* Pods_Shopping_AppTests.framework */; };
+		DE55345380558A5B08213668 /* Pods_Shopping_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BFF85FC1E7AD838D2A4662 /* Pods_Shopping_App.framework */; };
+		E61B5493EB80F293D528EE4E /* Pods_Shopping_App_Shopping_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B557BEE7602595A020CF3330 /* Pods_Shopping_App_Shopping_AppUITests.framework */; };
 		F092B34C290A40E4006E462E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F092B34B290A40E4006E462E /* AppDelegate.swift */; };
-		F092B34E290A40E4006E462E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F092B34D290A40E4006E462E /* SceneDelegate.swift */; };
 		F092B350290A40E4006E462E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F092B34F290A40E4006E462E /* ViewController.swift */; };
 		F092B353290A40E4006E462E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F092B351290A40E4006E462E /* Main.storyboard */; };
 		F092B355290A40E5006E462E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F092B354290A40E5006E462E /* Assets.xcassets */; };
@@ -20,6 +22,11 @@
 		F092B384290A8F12006E462E /* OnboardingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F092B382290A8F12006E462E /* OnboardingViewController.xib */; };
 		F092B387290A93A5006E462E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F092B386290A93A5006E462E /* OnboardingView.swift */; };
 		F092B38D290A9BAF006E462E /* OnboardingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F092B38C290A9BAF006E462E /* OnboardingView.xib */; };
+		F092B391290FE38C006E462E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F092B390290FE38C006E462E /* GoogleService-Info.plist */; };
+		F092B3A3290FE894006E462E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F092B3A2290FE894006E462E /* FirebaseAuth */; };
+		F092B3A5290FE894006E462E /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F092B3A4290FE894006E462E /* FirebaseFirestoreSwift */; };
+		F092B3A7290FE894006E462E /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F092B3A6290FE894006E462E /* FirebaseRemoteConfigSwift */; };
+		F092B3A9290FE894006E462E /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = F092B3A8290FE894006E462E /* FirebaseStorage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +47,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07FA6DD4129381B5DD78A9C2 /* Pods-Shopping App-Shopping AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shopping App-Shopping AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Shopping App-Shopping AppUITests/Pods-Shopping App-Shopping AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		12A85E80B94BB2B8D2B55B6F /* Pods-Shopping AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shopping AppTests.release.xcconfig"; path = "Target Support Files/Pods-Shopping AppTests/Pods-Shopping AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		2822F36CEED004F9AB8D191D /* Pods-Shopping App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shopping App.release.xcconfig"; path = "Target Support Files/Pods-Shopping App/Pods-Shopping App.release.xcconfig"; sourceTree = "<group>"; };
+		54BFF85FC1E7AD838D2A4662 /* Pods_Shopping_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shopping_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B89E6E35BFD42886FFA412 /* Pods-Shopping AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shopping AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Shopping AppTests/Pods-Shopping AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8219F5F134E791DE08BA8E37 /* Pods-Shopping App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shopping App.debug.xcconfig"; path = "Target Support Files/Pods-Shopping App/Pods-Shopping App.debug.xcconfig"; sourceTree = "<group>"; };
+		B557BEE7602595A020CF3330 /* Pods_Shopping_App_Shopping_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shopping_App_Shopping_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B671D513CA5734F4CC68B5C9 /* Pods_Shopping_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shopping_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F092B348290A40E4006E462E /* Shopping App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shopping App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F092B34B290A40E4006E462E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F092B34D290A40E4006E462E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F092B34F290A40E4006E462E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F092B352290A40E4006E462E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F092B354290A40E5006E462E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,6 +71,8 @@
 		F092B382290A8F12006E462E /* OnboardingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingViewController.xib; sourceTree = "<group>"; };
 		F092B386290A93A5006E462E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		F092B38C290A9BAF006E462E /* OnboardingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingView.xib; sourceTree = "<group>"; };
+		F092B390290FE38C006E462E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F8A12418828141ECBDB587AF /* Pods-Shopping App-Shopping AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shopping App-Shopping AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Shopping App-Shopping AppUITests/Pods-Shopping App-Shopping AppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +80,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE55345380558A5B08213668 /* Pods_Shopping_App.framework in Frameworks */,
+				F092B3A7290FE894006E462E /* FirebaseRemoteConfigSwift in Frameworks */,
+				F092B3A3290FE894006E462E /* FirebaseAuth in Frameworks */,
+				F092B3A9290FE894006E462E /* FirebaseStorage in Frameworks */,
+				F092B3A5290FE894006E462E /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06080CB4C4D3894F29342D6C /* Pods_Shopping_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +100,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E61B5493EB80F293D528EE4E /* Pods_Shopping_App_Shopping_AppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF687D8648909FC9347D0BB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54BFF85FC1E7AD838D2A4662 /* Pods_Shopping_App.framework */,
+				B557BEE7602595A020CF3330 /* Pods_Shopping_App_Shopping_AppUITests.framework */,
+				B671D513CA5734F4CC68B5C9 /* Pods_Shopping_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0FFF4C1487D3CBDCD7E7C25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8219F5F134E791DE08BA8E37 /* Pods-Shopping App.debug.xcconfig */,
+				2822F36CEED004F9AB8D191D /* Pods-Shopping App.release.xcconfig */,
+				07FA6DD4129381B5DD78A9C2 /* Pods-Shopping App-Shopping AppUITests.debug.xcconfig */,
+				F8A12418828141ECBDB587AF /* Pods-Shopping App-Shopping AppUITests.release.xcconfig */,
+				76B89E6E35BFD42886FFA412 /* Pods-Shopping AppTests.debug.xcconfig */,
+				12A85E80B94BB2B8D2B55B6F /* Pods-Shopping AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F092B33F290A40E4006E462E = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +137,8 @@
 				F092B361290A40E5006E462E /* Shopping AppTests */,
 				F092B36B290A40E5006E462E /* Shopping AppUITests */,
 				F092B349290A40E4006E462E /* Products */,
+				D0FFF4C1487D3CBDCD7E7C25 /* Pods */,
+				AF687D8648909FC9347D0BB7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,11 +181,10 @@
 		F092B37B290A4129006E462E /* App */ = {
 			isa = PBXGroup;
 			children = (
-				F092B34B290A40E4006E462E /* AppDelegate.swift */,
-				F092B34D290A40E4006E462E /* SceneDelegate.swift */,
-				F092B354290A40E5006E462E /* Assets.xcassets */,
-				F092B356290A40E5006E462E /* LaunchScreen.storyboard */,
-				F092B359290A40E5006E462E /* Info.plist */,
+				F092B39D290FE585006E462E /* Delegate */,
+				F092B39C290FE580006E462E /* View */,
+				F092B39B290FE574006E462E /* Assets */,
+				F092B38F290FE354006E462E /* Plists */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -145,6 +192,7 @@
 		F092B37C290A413E006E462E /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				F092B38E290ABB52006E462E /* AuthScreen */,
 				F092B37E290A8EE0006E462E /* Onboarding */,
 				F092B37D290A432B006E462E /* Initial */,
 			);
@@ -195,6 +243,78 @@
 			path = OnboardingView;
 			sourceTree = "<group>";
 		};
+		F092B38E290ABB52006E462E /* AuthScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F092B3A1290FE5CB006E462E /* Model */,
+				F092B3A0290FE5C7006E462E /* ViewModel */,
+				F092B39F290FE5C0006E462E /* View */,
+				F092B39E290FE5BB006E462E /* Controller */,
+			);
+			path = AuthScreen;
+			sourceTree = "<group>";
+		};
+		F092B38F290FE354006E462E /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				F092B390290FE38C006E462E /* GoogleService-Info.plist */,
+				F092B359290A40E5006E462E /* Info.plist */,
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
+		F092B39B290FE574006E462E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F092B354290A40E5006E462E /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		F092B39C290FE580006E462E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F092B356290A40E5006E462E /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F092B39D290FE585006E462E /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				F092B34B290A40E4006E462E /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		F092B39E290FE5BB006E462E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F092B39F290FE5C0006E462E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F092B3A0290FE5C7006E462E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F092B3A1290FE5CB006E462E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -202,6 +322,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F092B372290A40E5006E462E /* Build configuration list for PBXNativeTarget "Shopping App" */;
 			buildPhases = (
+				6FAF7040E6DF113FD72E3D5A /* [CP] Check Pods Manifest.lock */,
 				F092B344290A40E4006E462E /* Sources */,
 				F092B345290A40E4006E462E /* Frameworks */,
 				F092B346290A40E4006E462E /* Resources */,
@@ -211,6 +332,12 @@
 			dependencies = (
 			);
 			name = "Shopping App";
+			packageProductDependencies = (
+				F092B3A2290FE894006E462E /* FirebaseAuth */,
+				F092B3A4290FE894006E462E /* FirebaseFirestoreSwift */,
+				F092B3A6290FE894006E462E /* FirebaseRemoteConfigSwift */,
+				F092B3A8290FE894006E462E /* FirebaseStorage */,
+			);
 			productName = "Shopping App";
 			productReference = F092B348290A40E4006E462E /* Shopping App.app */;
 			productType = "com.apple.product-type.application";
@@ -219,6 +346,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F092B375290A40E5006E462E /* Build configuration list for PBXNativeTarget "Shopping AppTests" */;
 			buildPhases = (
+				A89A06A054DD6DA19AA1446B /* [CP] Check Pods Manifest.lock */,
 				F092B35A290A40E5006E462E /* Sources */,
 				F092B35B290A40E5006E462E /* Frameworks */,
 				F092B35C290A40E5006E462E /* Resources */,
@@ -237,6 +365,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F092B378290A40E5006E462E /* Build configuration list for PBXNativeTarget "Shopping AppUITests" */;
 			buildPhases = (
+				D215F9FDCAF61FB48598E090 /* [CP] Check Pods Manifest.lock */,
 				F092B364290A40E5006E462E /* Sources */,
 				F092B365290A40E5006E462E /* Frameworks */,
 				F092B366290A40E5006E462E /* Resources */,
@@ -283,6 +412,9 @@
 				Base,
 			);
 			mainGroup = F092B33F290A40E4006E462E;
+			packageReferences = (
+				F092B392290FE512006E462E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = F092B349290A40E4006E462E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -304,6 +436,7 @@
 				F092B353290A40E4006E462E /* Main.storyboard in Resources */,
 				F092B38D290A9BAF006E462E /* OnboardingView.xib in Resources */,
 				F092B384290A8F12006E462E /* OnboardingViewController.xib in Resources */,
+				F092B391290FE38C006E462E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +456,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6FAF7040E6DF113FD72E3D5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shopping App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A89A06A054DD6DA19AA1446B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shopping AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D215F9FDCAF61FB48598E090 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shopping App-Shopping AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F092B344290A40E4006E462E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -330,7 +532,6 @@
 			files = (
 				F092B350290A40E4006E462E /* ViewController.swift in Sources */,
 				F092B34C290A40E4006E462E /* AppDelegate.swift in Sources */,
-				F092B34E290A40E4006E462E /* SceneDelegate.swift in Sources */,
 				F092B387290A93A5006E462E /* OnboardingView.swift in Sources */,
 				F092B383290A8F12006E462E /* OnboardingViewController.swift in Sources */,
 			);
@@ -504,6 +705,7 @@
 		};
 		F092B373290A40E5006E462E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8219F5F134E791DE08BA8E37 /* Pods-Shopping App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -511,7 +713,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9733LH72T3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Shopping App/App/Info.plist";
+				INFOPLIST_FILE = "Shopping App/App/Plists/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "E-Market";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -537,6 +740,7 @@
 		};
 		F092B374290A40E5006E462E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2822F36CEED004F9AB8D191D /* Pods-Shopping App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -544,7 +748,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9733LH72T3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Shopping App/App/Info.plist";
+				INFOPLIST_FILE = "Shopping App/App/Plists/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "E-Market";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -570,6 +775,7 @@
 		};
 		F092B376290A40E5006E462E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76B89E6E35BFD42886FFA412 /* Pods-Shopping AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -590,6 +796,7 @@
 		};
 		F092B377290A40E5006E462E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12A85E80B94BB2B8D2B55B6F /* Pods-Shopping AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -610,6 +817,7 @@
 		};
 		F092B379290A40E5006E462E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07FA6DD4129381B5DD78A9C2 /* Pods-Shopping App-Shopping AppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -628,6 +836,7 @@
 		};
 		F092B37A290A40E5006E462E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8A12418828141ECBDB587AF /* Pods-Shopping App-Shopping AppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -684,6 +893,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F092B392290FE512006E462E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F092B3A2290FE894006E462E /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F092B392290FE512006E462E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F092B3A4290FE894006E462E /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F092B392290FE512006E462E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		F092B3A6290FE894006E462E /* FirebaseRemoteConfigSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F092B392290FE512006E462E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfigSwift;
+		};
+		F092B3A8290FE894006E462E /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F092B392290FE512006E462E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F092B340290A40E4006E462E /* Project object */;
 }

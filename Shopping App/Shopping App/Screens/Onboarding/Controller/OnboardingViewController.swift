@@ -111,6 +111,7 @@ final class OnboardingViewController: UIViewController {
                }
     }
     @IBAction func didTapSkipButton(_ sender: UIButton) {
+        //                    goToAuth()
         print("SKIP BUTTON PRESSED")
     }
     private func updateScrollViewContentOffset(with pageNumber: Int) {
