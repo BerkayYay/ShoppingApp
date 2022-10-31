@@ -10,6 +10,14 @@
 		06080CB4C4D3894F29342D6C /* Pods_Shopping_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B671D513CA5734F4CC68B5C9 /* Pods_Shopping_AppTests.framework */; };
 		DE55345380558A5B08213668 /* Pods_Shopping_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BFF85FC1E7AD838D2A4662 /* Pods_Shopping_App.framework */; };
 		E61B5493EB80F293D528EE4E /* Pods_Shopping_App_Shopping_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B557BEE7602595A020CF3330 /* Pods_Shopping_App_Shopping_AppUITests.framework */; };
+		F05CD6CD290FF00E0072AA96 /* AuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F05CD6CC290FF00E0072AA96 /* AuthViewController.xib */; };
+		F05CD6CF290FF5030072AA96 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05CD6CE290FF5030072AA96 /* AuthViewModel.swift */; };
+		F05CD6D1290FFCD50072AA96 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05CD6D0290FFCD50072AA96 /* User.swift */; };
+		F05CD6D5290FFF990072AA96 /* UserDefaultsAccessible.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05CD6D4290FFF990072AA96 /* UserDefaultsAccessible.swift */; };
+		F05CD6D7290FFFAB0072AA96 /* FireBaseFireStoreAccessible.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05CD6D6290FFFAB0072AA96 /* FireBaseFireStoreAccessible.swift */; };
+		F05CD6DA290FFFDB0072AA96 /* UserDefaultConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05CD6D9290FFFDB0072AA96 /* UserDefaultConstants.swift */; };
+		F05CD6DC291000B70072AA96 /* Encodable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05CD6DB291000B70072AA96 /* Encodable+Extensions.swift */; };
+		F05CD6DF2910016F0072AA96 /* AlertPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05CD6DE2910016F0072AA96 /* AlertPresentable.swift */; };
 		F092B34C290A40E4006E462E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F092B34B290A40E4006E462E /* AppDelegate.swift */; };
 		F092B350290A40E4006E462E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F092B34F290A40E4006E462E /* ViewController.swift */; };
 		F092B353290A40E4006E462E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F092B351290A40E4006E462E /* Main.storyboard */; };
@@ -27,6 +35,7 @@
 		F092B3A5290FE894006E462E /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F092B3A4290FE894006E462E /* FirebaseFirestoreSwift */; };
 		F092B3A7290FE894006E462E /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F092B3A6290FE894006E462E /* FirebaseRemoteConfigSwift */; };
 		F092B3A9290FE894006E462E /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = F092B3A8290FE894006E462E /* FirebaseStorage */; };
+		F092B3AC290FEFDB006E462E /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F092B3AA290FEFDB006E462E /* AuthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +64,14 @@
 		8219F5F134E791DE08BA8E37 /* Pods-Shopping App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shopping App.debug.xcconfig"; path = "Target Support Files/Pods-Shopping App/Pods-Shopping App.debug.xcconfig"; sourceTree = "<group>"; };
 		B557BEE7602595A020CF3330 /* Pods_Shopping_App_Shopping_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shopping_App_Shopping_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B671D513CA5734F4CC68B5C9 /* Pods_Shopping_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shopping_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F05CD6CC290FF00E0072AA96 /* AuthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthViewController.xib; sourceTree = "<group>"; };
+		F05CD6CE290FF5030072AA96 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		F05CD6D0290FFCD50072AA96 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F05CD6D4290FFF990072AA96 /* UserDefaultsAccessible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsAccessible.swift; sourceTree = "<group>"; };
+		F05CD6D6290FFFAB0072AA96 /* FireBaseFireStoreAccessible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseFireStoreAccessible.swift; sourceTree = "<group>"; };
+		F05CD6D9290FFFDB0072AA96 /* UserDefaultConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultConstants.swift; sourceTree = "<group>"; };
+		F05CD6DB291000B70072AA96 /* Encodable+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+Extensions.swift"; sourceTree = "<group>"; };
+		F05CD6DE2910016F0072AA96 /* AlertPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresentable.swift; sourceTree = "<group>"; };
 		F092B348290A40E4006E462E /* Shopping App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shopping App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F092B34B290A40E4006E462E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F092B34F290A40E4006E462E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +89,7 @@
 		F092B386290A93A5006E462E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		F092B38C290A9BAF006E462E /* OnboardingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingView.xib; sourceTree = "<group>"; };
 		F092B390290FE38C006E462E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F092B3AA290FEFDB006E462E /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		F8A12418828141ECBDB587AF /* Pods-Shopping App-Shopping AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shopping App-Shopping AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Shopping App-Shopping AppUITests/Pods-Shopping App-Shopping AppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,6 +148,42 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		F05CD6D2290FFF870072AA96 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F05CD6DD2910015B0072AA96 /* Helpers */,
+				F05CD6D8290FFFD30072AA96 /* Constants */,
+				F05CD6D3290FFF8E0072AA96 /* Extensions */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F05CD6D3290FFF8E0072AA96 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F05CD6D4290FFF990072AA96 /* UserDefaultsAccessible.swift */,
+				F05CD6D6290FFFAB0072AA96 /* FireBaseFireStoreAccessible.swift */,
+				F05CD6DB291000B70072AA96 /* Encodable+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F05CD6D8290FFFD30072AA96 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				F05CD6D9290FFFDB0072AA96 /* UserDefaultConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		F05CD6DD2910015B0072AA96 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F05CD6DE2910016F0072AA96 /* AlertPresentable.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		F092B33F290A40E4006E462E = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +235,7 @@
 		F092B37B290A4129006E462E /* App */ = {
 			isa = PBXGroup;
 			children = (
+				F05CD6D2290FFF870072AA96 /* Core */,
 				F092B39D290FE585006E462E /* Delegate */,
 				F092B39C290FE580006E462E /* View */,
 				F092B39B290FE574006E462E /* Assets */,
@@ -290,6 +345,7 @@
 		F092B39E290FE5BB006E462E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F092B3AA290FEFDB006E462E /* AuthViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -297,6 +353,7 @@
 		F092B39F290FE5C0006E462E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F05CD6CC290FF00E0072AA96 /* AuthViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -304,6 +361,7 @@
 		F092B3A0290FE5C7006E462E /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				F05CD6CE290FF5030072AA96 /* AuthViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -311,6 +369,7 @@
 		F092B3A1290FE5CB006E462E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F05CD6D0290FFCD50072AA96 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -434,6 +493,7 @@
 				F092B358290A40E5006E462E /* LaunchScreen.storyboard in Resources */,
 				F092B355290A40E5006E462E /* Assets.xcassets in Resources */,
 				F092B353290A40E4006E462E /* Main.storyboard in Resources */,
+				F05CD6CD290FF00E0072AA96 /* AuthViewController.xib in Resources */,
 				F092B38D290A9BAF006E462E /* OnboardingView.xib in Resources */,
 				F092B384290A8F12006E462E /* OnboardingViewController.xib in Resources */,
 				F092B391290FE38C006E462E /* GoogleService-Info.plist in Resources */,
@@ -530,10 +590,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F05CD6DA290FFFDB0072AA96 /* UserDefaultConstants.swift in Sources */,
+				F05CD6D7290FFFAB0072AA96 /* FireBaseFireStoreAccessible.swift in Sources */,
 				F092B350290A40E4006E462E /* ViewController.swift in Sources */,
 				F092B34C290A40E4006E462E /* AppDelegate.swift in Sources */,
+				F05CD6CF290FF5030072AA96 /* AuthViewModel.swift in Sources */,
+				F092B3AC290FEFDB006E462E /* AuthViewController.swift in Sources */,
+				F05CD6DC291000B70072AA96 /* Encodable+Extensions.swift in Sources */,
+				F05CD6D5290FFF990072AA96 /* UserDefaultsAccessible.swift in Sources */,
 				F092B387290A93A5006E462E /* OnboardingView.swift in Sources */,
 				F092B383290A8F12006E462E /* OnboardingViewController.swift in Sources */,
+				F05CD6DF2910016F0072AA96 /* AlertPresentable.swift in Sources */,
+				F05CD6D1290FFCD50072AA96 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

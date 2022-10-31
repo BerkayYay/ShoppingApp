@@ -10,7 +10,8 @@ import UIKit
 final class OnboardingViewController: UIViewController {
     
     private let pageWidth: CGFloat = UIScreen.main.bounds.width
-    
+    private let authView = AuthViewModel()
+    private let authScreen = AuthViewController(viewModel: AuthViewModel())
     
     
     @IBOutlet private weak var nextButton: UIButton!
@@ -97,8 +98,7 @@ final class OnboardingViewController: UIViewController {
         if currentPageNumber < onboardingViews.count - 1 {
                     currentPageNumber += 1
                 } else {
-//                    goToAuth()
-                    print("Son sayfa")
+                    goToAuth()
                 }
     }
     
@@ -111,8 +111,8 @@ final class OnboardingViewController: UIViewController {
                }
     }
     @IBAction func didTapSkipButton(_ sender: UIButton) {
-        //                    goToAuth()
-        print("SKIP BUTTON PRESSED")
+        goToAuth()
+        
     }
     private func updateScrollViewContentOffset(with pageNumber: Int) {
         let contentOffset = CGPoint(x: pageWidth * CGFloat(pageNumber), y: .zero)
@@ -120,7 +120,7 @@ final class OnboardingViewController: UIViewController {
     }
 
     private func goToAuth() {
-        navigationController?.pushViewController(UIViewController(), animated: true)
+        navigationController?.pushViewController(authScreen, animated: true)
     }
 }
 
