@@ -82,14 +82,14 @@ final class OnboardingViewController: UIViewController {
         navigationController?.setNavigationBarHidden(true, animated: false)
         
         let firstOnboardingView = OnboardingView()
-        firstOnboardingView.image = UIImage(named: "placeholder")
-        firstOnboardingView.text = "First Onboarding View"
+        firstOnboardingView.image = UIImage(named: "onboard1")
+        firstOnboardingView.text = "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
         onboardingViews.append(firstOnboardingView)
         
         
         let secondOnboardingView = OnboardingView()
-        secondOnboardingView.image = UIImage(named: "placeholder")
-        secondOnboardingView.text = "Second Onboarding View"
+        secondOnboardingView.image = UIImage(named: "onboard2")
+        secondOnboardingView.text = "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
         onboardingViews.append(secondOnboardingView)
     }
     

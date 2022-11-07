@@ -80,7 +80,7 @@ class AuthViewController: UIViewController, AlertPresentable {
                              password: password,
                              completion: { [weak self] in
                 guard let self = self else { return }
-                self.showAlert(title: "SIGN IN SUCCESFULL")
+                self.navigationController?.pushViewController(MainTabBarController(), animated: true)
             })
         case .signUp:
             viewModel.signUp(email: credential,
